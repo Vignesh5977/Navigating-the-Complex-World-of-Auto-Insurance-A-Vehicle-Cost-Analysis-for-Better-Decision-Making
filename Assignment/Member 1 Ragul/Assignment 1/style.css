@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.hero {
+    width: 100%;
+    height: 100vh;
+    background: url(data:image/jpeg;base64,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);
+    background-size: cover;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+.logo {
+    max-height: 150px;
+    width:400px;  
+	
+    
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a {
+    color: #1c99fe;
+    position: relative;
+    padding: 5px 0;
+}
+nav ul li a:hover {
+    color: #1c99fe;
+}
+nav ul li a:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: #fd4766;
+    transition: 0.3s;
+    bottom: 0;
+}
+nav ul li a:hover:after {
+    width: 100%;
+}
+.btn {
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 12px 30px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all 0.4s ease-in-out;
+    background-size: 152% 100%;
+    background: #1c99fe;
+    border: 2px solid #fd4766;
+}
+.btn:hover {
+    background: transparent;
+    border-color: #fd4766;
+    color: #fd4766;
+}
+.content {
+    position: absolute;
+    top: 35%;
+    left: 8%;
+}
+.content .title {
+    color: #0a0a0a;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-bottom: 20px;
+    background: linear-gradient(
+        120deg,
+        #1c99fe 20.69%,
+        #7644ff 50.19%,
+        #fd4766 79.69%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.content h1 {
+    color: #1c99fe;
+    font-size: 75px;
+    font-weight: 900;
+    line-height: 90px;
+    text-transform: inherit;
+    width: 70%;
+}
+.content h1 span {
+    color: #fd4766;
+}
+.content p {
+    width: 55%;
+    color: #1c99fe;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.fimage{
+    margin-bottom: 5%;
+}

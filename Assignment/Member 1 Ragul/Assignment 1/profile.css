@@ -1,0 +1,53 @@
+body {
+    margin: 100px
+}
+
+.div1 {
+    text-align: center;
+}
+
+img {
+    align-items: center;
+    border-radius: 100%;
+
+}
+
+.div3 {
+    display: flex;
+    width: auto;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 25%;
+    padding-right: 25%;
+    font-weight: bold;
+
+
+}
+
+.div3 p2{
+    font-size: large;
+    padding: 20px;
+}
+
+
+.div4 {
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.body1 {
+    /* background-color: rgb(198, 245, 68); */
+    height: 100%;
+    width: 100%;
+    background-color: rgb(22, 131, 255);
+    padding: 20px;
+
+}
